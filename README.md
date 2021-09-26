@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Book-Store
+• This is a Book Store website created by react app
+• This website have buy functionality. You can buy product with pricing.
+• I am learning react.js. I did this project for learning purpose.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here is the link of the website [Create React App](https://react-book-store420.netlify.app/).
 
 ## Available Scripts
 
