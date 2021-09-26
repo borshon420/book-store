@@ -15,8 +15,6 @@ const Book = (props) => {
             <p><small>Id: {id}</small></p>
             <p>Price: {price}</p>
             <p>Published: {published}</p>
-            
-            <br />
             <button
             onClick={()=> props.handleAddToCart(props.book)} 
             className="regular-btn"

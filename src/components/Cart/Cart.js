@@ -10,15 +10,19 @@ const Cart = (props) => {
     for(const book of cart){
         total = total + book.price;
     }
-    let bookName = '';
-    for(const book of cart){
-        bookName = bookName + book.name + ', '  
-    } 
+     
     return (
         <div className="cart-item">
             <h1>Book Items: {props.cart.length}</h1>
-            <h3>Author: {bookName}</h3>
             <p>Price: {total}</p>
+            <h3>Author </h3>
+            <ul>
+                
+                    {
+                        cart.map(author => <li key={author.id}>{author.author}</li>)
+                    }
+                    
+            </ul>
             <button className="buy-now-btn">{cartIcon} Buy Now</button>
         </div>
     );

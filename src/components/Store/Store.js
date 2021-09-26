@@ -18,22 +18,27 @@ const Store = () => {
         setCart(newCart)
     }
     return (
-        <div className="store-container">
-            
-            <div className="books-container">
-            {
-                books.map(book => <Book
-                    handleAddToCart={handleAddToCart}
-                    key={book.id} 
-                    book={book}
-                    ></Book>)
-            }
-            </div>
-            <div className="cart-container">
-                <Cart cart={cart}></Cart>
+
+        <>
+            <div className="store-container">
+                
+                <div className="books-container">
+                    {
+                        books.map(book => <Book
+                            handleAddToCart={handleAddToCart}
+                            key={book.id} 
+                            book={book}
+                            ></Book>)
+                    }
+                </div>
+                <div className="cart-container">
+                    <Cart cart={cart}></Cart>
+                    
+                </div>
                 
             </div>
-        </div>
+            
+        </>
     );
 };
 
