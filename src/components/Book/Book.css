@@ -1,0 +1,17 @@
+.book-container {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.book-container img {
+    height: 300px;
+}
+
+.regular-btn {
+    background-color: gold;
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
