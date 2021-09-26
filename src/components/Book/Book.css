@@ -1,7 +1,9 @@
 .book-container {
-    background-color: lightgray;
+    border: 2px solid #FF4C29;
+    border-radius: 5px;
     padding: 20px;
     text-align: center;
+    color: white;
 }
 
 .book-container img {
@@ -9,9 +11,16 @@
 }
 
 .regular-btn {
-    background-color: gold;
+    background-color: #FF4C29;
     width: 150px;
     height: 30px;
     border: 1px solid gray;
     border-radius: 5px;
+    color: white;
+}
+
+.book-container:hover {
+    box-shadow: 4px 4px 7px #FF4C29;
+  border-radius: 10px;
+  border: 1px solid #FF4C29;
 }

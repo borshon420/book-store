@@ -1,0 +1,22 @@
+.header {
+    background-color: #082032;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header nav {
+    background-color: #003638;
+    line-height: 40px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.header nav a:hover {
+    background-color: #FF4C29;
+    padding: 10px;
+}

@@ -1,0 +1,23 @@
+.cart-item {
+    border: 2px solid #FF4C29;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.cart-item:hover {
+    box-shadow: 4px 4px 7px #FF4C29;
+    border-radius: 10px;
+    border: 1px solid #FF4C29;
+}
+
+.buy-now-btn {
+    background-color: #FF4C29;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+}

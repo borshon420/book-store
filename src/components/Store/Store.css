@@ -1,5 +1,6 @@
 .store-container {
     display: flex;
+    margin-left: 10px;
 }
 
 .books-container {
