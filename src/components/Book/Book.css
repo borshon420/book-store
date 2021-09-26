@@ -1,5 +1,5 @@
 .book-container {
-    border: 2px solid #FF4C29;
+    border: 1px solid #FF4C29;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
@@ -22,6 +22,6 @@
 .book-container:hover {
     box-shadow: 4px 4px 7px #FF4C29;
   border-radius: 10px;
-  border: 1px solid #FF4C29;
+  
 }
 

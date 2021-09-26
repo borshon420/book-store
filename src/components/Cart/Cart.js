@@ -14,8 +14,16 @@ const Cart = (props) => {
     return (
         <div className="cart-item">
             <h1>Book Items: {props.cart.length}</h1>
-            <p>Price: {total}</p>
-            <h3>Author </h3>
+            <p>Price: {total.toFixed(2)}</p>
+            <h3>Books name:</h3>
+            <ul>
+                
+                    {
+                        cart.map(author => <li key={author.id}>{author.name}</li>)
+                    }
+                    
+            </ul>
+            <h3>Author: </h3>
             <ul>
                 
                     {
