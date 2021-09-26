@@ -24,3 +24,9 @@
   border-radius: 10px;
   border: 1px solid #FF4C29;
 }
+
+.icon-color {
+    color: gold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
